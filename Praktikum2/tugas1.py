@@ -127,7 +127,7 @@ def main():
     buka_data = baca_file(nama_file)
     
     while True:
-        print("\n========== MENU STOK BARANG ==========")
+        print("\n========== DAFTAR BARANG ==========")
         print("1. Tampilkan Semua Barang")
         print("2. Cari Barang Berdasarkan Kode")
         print("3. Tambah Barang Baru")
@@ -155,4 +155,5 @@ def main():
             print("Pilihan tidak valid. Silakan coba lagi.")
             
 if __name__ == "__main__":
+
     main()
